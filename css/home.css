@@ -1,0 +1,319 @@
+:root{
+    --dark: #0D1413;
+    --activeStatus: rgba(0,0,0,.05);
+    --light: #edeff0;
+    --theme: #55C18F;
+    --white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--dark);
+}
+
+
+
+a{
+    text-decoration: none;
+}
+button{
+    display: inline-block;
+    margin: auto;
+    background-color: var(--theme);
+    color: var(--light);
+    padding: 0.7rem 2rem;
+    border: none;
+    font-size: 0.9rem;
+}
+img{
+    width: 100%;
+}
+
+body{
+    background-color: var(--light);
+}
+
+header{
+    background-color: var(--white);
+    padding: 1rem;
+}
+header #upperDiv h1{
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li a{
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: ease 0.4s;
+}
+header nav ul li .active{
+    background-color: var(--activeStatus);
+}
+
+.introduction{
+    background-image: url("../img/garden.jpg");
+    min-height: 60vh;
+    position: relative;
+}
+.introduction .innerBox{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 5rem 0.5rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+}
+.introduction .innerBox h2{
+    color: var(--white);
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.introduction .innerBox h3{
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 1000;
+}
+.introduction button{
+    position: absolute;
+    margin: 18rem 0 10rem 10rem ;
+}
+
+.welcome{
+    background-color: var(--theme);
+    padding: 3rem 2rem;
+}
+.welcome h1{
+    text-align: center;
+    color: var(--light);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.welcome p{
+    color: var(--light);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.welcome .services{
+
+}
+.welcome .services h2{
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--white);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: var(--light);
+}
+.welcome .services p{
+    width: 95%;
+    color: var(--light);
+}
+.welcome .serviceDemo{
+    margin: 1rem 0;
+}
+.welcome .serviceDemo h3{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    color: var(--light);
+}
+.welcome #one{
+    background-image: url("../img/s1.jpeg");
+    background-size: cover;
+    min-height: 30vh;
+    position: relative
+}
+.welcome #one h3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.welcome #two{
+    background-image: url("../img/s2.jpeg");
+    background-size: cover;
+    min-height: 30vh;
+    position: relative;
+}
+.welcome #two h3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.welcome #three{
+    background-image: url("../img/s3.jpeg");
+    background-size: cover;
+    min-height: 30vh;
+    position: relative;
+}
+.welcome #three h3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.welcome #four{
+    background-image: url("../img/s4.jpeg");
+    background-size: cover;
+    min-height: 30vh;
+    position: relative;
+}
+.welcome #four h3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.blogSection{
+    margin: 3rem 3rem;
+    text-align: center;
+}
+.blogSection h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.blogSection button{
+    margin-bottom: 3rem;
+}
+.blogSection .cardContainer{
+}
+.blogSection .cardContainer .card{
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+.blogSection .cardContainer .card .date{
+    padding: 1rem 0;
+    background-color: var(--dark);
+}
+.blogSection .cardContainer .card .date h3{
+    color: var(--light);
+    font-style: italic;
+}
+.blogSection .cardContainer .card .cardDetails{
+    padding: 1rem;
+}
+.blogSection .cardContainer .card .cardDetails h2{
+    margin-bottom: 1rem;
+}
+.blogSection .cardContainer .card .cardDetails p{
+    padding-bottom: 1rem;
+}
+.blogSection .cardContainer .card .cardDetails button{
+    margin-bottom: 0;
+}
+
+.testimonial{
+    background-color: var(--white);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.testimonial h2{
+    font-size: 1.5rem;
+    margin: 1.5rem auto;
+}
+.testimonial h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+.testimonial .clientContainer{
+
+}
+.testimonial .clientContainer .client{
+    padding: 1rem 0;
+
+}
+.testimonial .clientContainer .client .imgContainer{
+    margin-bottom: 1rem;
+}
+.testimonial .clientContainer .client .imgContainer img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.testimonial .clientContainer .client .detailsContainer{
+    padding: 1rem 2rem;
+}
+.testimonial .clientContainer .client .detailsContainer p{
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.testimonial .clientContainer .client .detailsContainer h4{
+    font-size: 1rem;
+}
+.testimonial .clientContainer .client .detailsContainer h5{
+    font-size: 0.8rem;
+}
+
+footer{
+    background-color: var(--dark);
+    padding: 2rem;
+}
+footer .quickLinks{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+footer .quickLinks h2{
+    color: var(--light);
+    font-size: 1.2rem;
+}
+footer .quickLinks ul{
+
+}
+footer .quickLinks ul li{
+
+}
+footer .quickLinks ul li a{
+    color: var(--light);
+    text-decoration: underline;
+}
+
+footer .contactDetails{
+    padding-bottom: 2rem;
+}
+footer .contactDetails .address{
+    
+}
+
+footer .contactDetails .address h3{
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+footer .contactDetails .phone{
+    
+}
+footer .contactDetails .phone h3{
+    color: var(--light);
+    margin-bottom: 1rem;
+
+}
+footer .contactDetails .email{
+    
+}
+footer .contactDetails .email h3{
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+footer .form input{
+    width: 100%;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+footer .form button{
+    margin-bottom: 2rem;
+}
+footer .copyright{
+
+}
+footer .copyright h3{
+    color: var(--light);
+    font-weight: 200;
+}
