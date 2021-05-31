@@ -15,9 +15,6 @@
     font-family: 'Raleway', sans-serif;
     color: var(--dark);
 }
-
-
-
 a{
     text-decoration: none;
 }
@@ -62,20 +59,23 @@ header nav ul li .active{
 
 .introduction{
     background-image: url("../img/garden.jpg");
+    background-size: cover;
     min-height: 60vh;
-    position: relative;
+    text-align: center;
+    padding-top: 3rem;
 }
 .introduction .innerBox{
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
-    margin: 5rem 0.5rem;
-    padding: 0.5rem 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 .introduction .innerBox h2{
     color: var(--white);
     font-size: 1.7rem;
     margin-bottom: 1rem;
+    margin-top: 4rem;
 }
 .introduction .innerBox h3{
     color: var(--white);
@@ -83,8 +83,6 @@ header nav ul li .active{
     font-weight: 1000;
 }
 .introduction button{
-    position: absolute;
-    margin: 18rem 0 10rem 10rem ;
 }
 
 .welcome{
