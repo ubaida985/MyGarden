@@ -60,12 +60,12 @@ header nav ul li .active{
 .introduction{
     background-image: url("../img/garden.jpg");
     background-size: cover;
-    min-height: 60vh;
+    min-height: 80vh;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 .introduction .innerBox{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 2rem;
@@ -119,7 +119,7 @@ header nav ul li .active{
     margin: 1rem 0;
 }
 .welcome .serviceDemo h3{
-    background-color: rgba(0,0,0,0.5);
+    background-color: var(--activeStatus)
     text-align: center;
     padding: 1.5rem 2rem;
     color: var(--light);
@@ -314,4 +314,77 @@ footer .copyright{
 footer .copyright h3{
     color: var(--light);
     font-weight: 200;
+}
+
+@media screen and ( min-width:750px ){
+        
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    header #upperDiv{
+        display: inline-block;
+    }
+    header #upperDiv h1{
+        display: inline-block;
+        margin: 0;
+    }
+    header nav{
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .welcome{
+        padding-bottom: 35rem;
+    }
+    .welcome .serviceDemo{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .welcome #one, .welcome #three{
+        width: 42%;
+        float: left;
+    }
+    .welcome #two, .welcome #four{
+        width: 42%;
+        float: right
+    }
+        
+    .blogSection{
+        margin: 3rem 4rem;
+        text-align: center;
+    }
+    .blogSection h2{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .blogSection button{
+        margin-bottom: 3rem;
+    }
+    .blogSection .cardContainer{
+    }
+    .blogSection .cardContainer .card{
+        width: 45%;
+    }
+    .blogSection .cardContainer .card .date{
+        padding: 1rem 0;
+        background-color: var(--dark);
+    }
+    .blogSection .cardContainer .card .date h3{
+        color: var(--light);
+        font-style: italic;
+    }
+    .blogSection .cardContainer .card .cardDetails{
+        padding: 1rem;
+    }
+    .blogSection .cardContainer .card .cardDetails h2{
+        margin-bottom: 1rem;
+    }
+    .blogSection .cardContainer .card .cardDetails p{
+        padding-bottom: 1rem;
+    }
+    .blogSection .cardContainer .card .cardDetails button{
+        margin-bottom: 0;
+    }
 }
