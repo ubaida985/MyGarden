@@ -251,73 +251,6 @@ footer p{
 }
 
 
-@media screen and (min-width: 750px){
-    header .logo{
-        display: inline-block;
-        width: 30%;
-    }
-    header nav{
-        display: inline-block;
-        width: 60%;
-    }
-    #intro{
-        min-height: 80vh;
-    }
-    #intro h2{
-        margin-top: 15rem;
-    }
-    #intro h3{
-        padding: 1rem;
-    }
-    .service{
-        width: 70%;
-        max-width: 38rem;
-        margin: 1.2rem auto;
-    }
-    .work, #blog .article,
-    #testimonials .testimonial,
-    footer .servicesLinks,
-    footer .getInTouch{
-        margin: 1.2rem;
-        width: 40%;
-        display: inline-block;
-    }
-    footer .servicesLinks a{
-        padding: 0.25rem 0px;
-        display: inline-block;
-    }
-    footer .newsLetter{
-        margin: 0.5rem 1.2rem;
-    }
-    footer .newsLetter input{
-        width: 70%;
-    }
-    
-    footer .newsLetter button{
-        margin-left: 0.5rem;
-        width: 20%;
-        padding: 1rem;
-    }
-    footer .copyright{
-        text-align: center;
-    }
-
-    
-    #our-history .event,
-    #our-team .member,
-    #faq .faq{
-        display: inline-block;
-        width: 40%;
-        margin: 4.6%;
-    }
-    #few-words-about-us .box{
-        max-width: 500px;
-        margin: auto;
-    }
-}
-
-
-
 
 
 
@@ -342,23 +275,23 @@ footer p{
 /****showcase*/
 
 /*few words about us*/
-#few-words-about-us h2{
+#fewWordsAboutUs h2{
     font-size: 1.5em;
     text-align: center;
     padding: 20px;
     margin-bottom: 10px;
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
-#few-words-about-us p{
+#fewWordsAboutUs p{
     padding: 10px;
 }
 /* few wors about us*/
 
 /*company history*/
-#our-history{
+#ourHistory{
     background-color: #fff;
 }
-#our-history h2{
+#ourHistory h2{
     font-size: 1.5em;
     text-align: center;
     padding: 20px;
@@ -384,7 +317,7 @@ footer p{
 /*Company history*/
 
 /*Our team*/
-#our-team h2{
+#ourTeam h2{
     font-size: 1.5em;
     text-align: center;
     padding: 20px;
@@ -397,12 +330,12 @@ footer p{
     background-color: #fff;
     padding: 10px;
 }
-.member .member-img{
+.member .memberImg{
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
-.member .member-name{
+.member .memberName{
     padding: 10px;
 }
 /*Our Team*/
@@ -486,3 +419,136 @@ footer p{
     color:  #55C18F;
     border: 2px solid  #55C18F;
 }
+
+
+
+
+.sservice{
+    margin: 30px 0px;
+    background-size: cover;
+    padding: 20px;
+    
+}
+.sservice .scallToAction{
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0px ;
+    border: none;
+    background-color: #55C18F;
+    color: #fff;
+    border-radius: 0px 50px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.sservice .scallToAction:hover{
+    color: #55C18F;
+    background-color: #fff; 
+}
+.sservice.sone{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6)), url(../img/s1.jpeg);  
+}
+.sservice.stwo{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6)), url(../img/s2.jpeg);  
+}
+.sservice.sthree{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6)), url(../img/s3.jpeg);  
+}
+.sservice h3{
+    font-size: 1.3em;
+    padding: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (min-width: 750px){
+    header .logo{
+        display: inline-block;
+        width: 30%;
+    }
+    header nav{
+        display: inline-block;
+        width: 60%;
+    }
+    #intro{
+        min-height: 80vh;
+    }
+    #intro h2{
+        margin-top: 15rem;
+    }
+    #intro h3{
+        padding: 1rem;
+    }
+    .service{
+        width: 70%;
+        max-width: 38rem;
+        margin: 1.2rem auto;
+    }
+    .work, #blog .article,
+    #testimonials .testimonial,
+    footer .servicesLinks,
+    footer .getInTouch{
+        margin: 1.2rem;
+        width: 40%;
+        display: inline-block;
+    }
+    footer .servicesLinks a{
+        padding: 0.25rem 0px;
+        display: inline-block;
+    }
+    footer .newsLetter{
+        margin: 0.5rem 1.2rem;
+    }
+    footer .newsLetter input{
+        width: 70%;
+    }
+    
+    footer .newsLetter button{
+        margin-left: 0.5rem;
+        width: 20%;
+        padding: 1rem;
+    }
+    footer .copyright{
+        text-align: center;
+    }
+
+    
+    #ourHistory .event,
+    #ourTeam .member,
+    #faq .faq{
+        display: inline-block;
+        width: 40%;
+        margin: 4.6%;
+    }
+    #fewWordsAboutUs .box{
+        max-width: 500px;
+        margin: auto;
+    }
+
+
+    .sservice{
+        width: 47.5%;
+        margin: 10px 0px;
+        float: left;
+    }
+    .sservice.stwo{
+        margin-right: 5%;
+    }
+    .sservice.sone{
+        width: 100%;
+    }
+    .sservicesContainer{
+        max-width: 800px;
+        margin: auto;
+    }
+    .sservicesContainer:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .sservice .callToAction{
+        margin: 15px 0px;
+    }
+}
+
+
