@@ -301,4 +301,188 @@ footer p{
     footer .copyright{
         text-align: center;
     }
+
+    
+    #our-history .event,
+    #our-team .member,
+    #faq .faq{
+        display: inline-block;
+        width: 40%;
+        margin: 4.6%;
+    }
+    #few-words-about-us .box{
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+/*showcase*/
+#showcase{
+    height: 300px;
+    background-image: url(../img/garden.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+#showcase h1{
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+    width: 80%;
+    left: 10%;
+}
+/****showcase*/
+
+/*few words about us*/
+#few-words-about-us h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+#few-words-about-us p{
+    padding: 10px;
+}
+/* few wors about us*/
+
+/*company history*/
+#our-history{
+    background-color: #fff;
+}
+#our-history h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.event{
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.event h3{
+    font-style: italic;
+    padding: 5px 0px;
+    color: #55C18F;
+}
+.event h4{
+    padding: 5px 0px;
+    color: #55C18F;
+}
+.event p{
+    padding: 5px 0px;
+}
+/*Company history*/
+
+/*Our team*/
+#our-team h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.member{
+    margin: 20px 0px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.member .member-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.member .member-name{
+    padding: 10px;
+}
+/*Our Team*/
+
+/*faq*/
+#faq{
+    background-color: #fff;
+}
+#faq h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.faq{
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.faq .question{
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.faq span{
+    padding-right: 10px;
+}
+/*faq*/
+
+
+
+
+
+
+
+#contact{
+    background-color: #fff;
+    padding: 10px;
+    
+}
+#contact .container{
+    max-width: 600px;
+    margin: auto;
+}
+#contact h2{
+    font-size: 1.5em;
+    padding: 20px 0px;
+    text-align: center;
+}
+#contact p{
+    padding: 10px 0px;
+    font-style: italic;
+}
+#contact form input,
+#contact form textarea{
+    padding: 10px;
+    margin: 5px 0px;
+    width: 100%;
+    border: 2px solid transparent;
+    outline: none;
+    background-color: #edeff0;
+    transition: all 0.4s;
+}
+
+#contact form input:hover,
+#contact form textarea:hover{
+    background-color: #fff;
+    border: 2px solid #edeff0;
+}
+#contact button{
+    padding: 10px;
+    margin: 10px 0px 20px;
+    border: 2px solid transparent;
+    background-color: #55C18F;
+    color: #fff;
+    transition: all 0.4s;
+}
+#contact button:hover{
+    background-color: #fff;
+    color:  #55C18F;
+    border: 2px solid  #55C18F;
 }
